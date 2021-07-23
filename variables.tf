@@ -45,3 +45,14 @@ variable "PRIVATE_SUBNETS_CIDR" {
   type        = list(string)
   description = "Private subnet cidr values"
 }
+
+# EC2 #
+variable "EC2_AMI" {
+  type        = string
+  description = "EC2 AMI"
+}
+
+variable "EC2_INSTANCE_TYPE" {
+  type        = string
+  description = "EC2 instance type"
+}
