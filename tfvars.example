@@ -1,0 +1,19 @@
+
+# APPLICATION #
+ENVIRONMENT = "YOUR ENVIRONMENT"
+
+# AWS #
+AVAILABILITY_ZONES = ["us-east-1a", "us-east-1b"]
+REGION             = "us-east-1"
+PROFILE            = "YOUR PROFILE"
+ACCESS_KEY         = "YOUR ACCESS KEY"
+SECRET_KEY         = "YOU SECRET KEY"
+
+# NETWORKS #
+VPC_CIDR_BLOCK       = "10.0.0.0/16"
+PUBLIC_SUBNETS_CIDR  = ["10.0.1.0/24", "10.0.2.0/24"]
+PRIVATE_SUBNETS_CIDR = ["10.0.3.0/24", "10.0.4.0/24"]
+
+# EC2 #
+EC2_AMI           = "ami-0dc2d3e4c0f9ebd18"
+EC2_INSTANCE_TYPE = "t2.micro"
