@@ -7,4 +7,4 @@ This project is built with terraform to create an infrastructure that includes:
 - EC2 Instance (Bastion and NGINX)
 - ALB
 
-![image](https://user-images.githubusercontent.com/47400938/127727759-76f3cb2b-3b26-450a-8344-7bfe3bf11a60.png)
+![image](https://user-images.githubusercontent.com/47400938/127727773-792fed5e-af03-45a5-8ebf-2379f01b4568.png)
